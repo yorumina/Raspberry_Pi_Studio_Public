@@ -185,8 +185,6 @@ This is a pin plan, not evidence of a completed harness. Confirm the chosen OS, 
 | Power button | J2 | — | NO momentary contact; not a general GPIO |
 | RTC battery | J5 | — | Pi 5-compatible rechargeable battery and correct plug |
 
-Machine-readable version: `Raspberry_Pi_Studio_IO_Pin_Map.csv`.
-
 ## 7. Power-button function
 
 The removable module consists of the Ø8.56 mm moving cap, guide, retaining flange, Omron B3F-1002 and carrier. Designed travel is 0.55 mm with 0.226 mm radial clearance per side.

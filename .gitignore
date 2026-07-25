@@ -23,6 +23,7 @@
 *.zip
 *.7z
 *.rar
+*.csv
 
 # Local/editor files
 .DS_Store

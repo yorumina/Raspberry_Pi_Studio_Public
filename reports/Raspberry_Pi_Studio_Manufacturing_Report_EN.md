@@ -5,12 +5,10 @@ Date: 2026-07-26
 Units: millimetres unless noted otherwise
 
 > This document governs mechanical design, printing, assembly and materials. For power distribution, GPIO, fan control, NFC, LD2410C, Desk Node communications, failure handling and system acceptance, see `Raspberry_Pi_Studio_Functional_Architecture_EN.md`.
->
-> **Public documentation edition:** this repository does not provide Blender files, STL meshes, source models, reference images, modeling scripts or private backups. Images in this report are derived final renders.
 
-## 1. Deliverables
+## 1. Report contents
 
-This public release contains the bilingual mechanical and functional reports, the BOM, GPIO pin map, power budget, and the final renders embedded in this report. Assemblies, exploded models, printable meshes, source references, rebuild scripts and raw audit artifacts remain in the private development project.
+This document covers the final enclosure specification, ventilation, I/O, internal layout, power-button module, BR-008, Desk Node, materials, build process, validation requirements and feasibility limits.
 
 ![Exterior isometric](../assets/figures/04_iso_exterior.png)
 
@@ -162,7 +160,7 @@ The selected Waveshare ESP32-S3-Touch-LCD-4.3B standard board is 112.4 × 75.1. 
 
 ## 9. Materials and purchased parts
 
-The complete procurement list is in `Raspberry_Pi_Studio_BOM.csv`.
+The principal purchased parts are listed below.
 
 Primary components:
 
