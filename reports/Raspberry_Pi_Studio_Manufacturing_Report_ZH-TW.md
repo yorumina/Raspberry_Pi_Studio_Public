@@ -184,10 +184,6 @@ Desk Node 使用平板式外觀：
 - 1 mm 導熱墊連接內部鋁質均熱片，再將熱傳至完整背殼
 - USB-C 開口位於底邊，正視時不顯眼
 
-![Desk Node 正面](../assets/figures/08_desk_node_apple_style_front.png)
-
-![Desk Node 無孔被動散熱背面](../assets/figures/09_desk_node_passive_rear.png)
-
 Waveshare ESP32-S3-Touch-LCD-4.3B 標準板外包絡為 112.4 × 75.1。被動散熱可行，但必須以亮度 100%、Wi-Fi 持續傳輸與 IR 發射的最差情況做 2 小時熱浸測試；背殼外表面建議低於 45°C。
 
 ## 8. 材料與採購規格

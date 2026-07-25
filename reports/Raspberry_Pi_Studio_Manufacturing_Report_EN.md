@@ -152,10 +152,6 @@ The 48 × 48 projected module area is about 16% of the 120 × 120 fan area. Vert
 - 1 mm thermal pad to a 116 × 78 × 0.8 internal aluminum spreader
 - bottom-edge USB-C opening
 
-![Desk Node front](../assets/figures/08_desk_node_apple_style_front.png)
-
-![Unperforated passive rear](../assets/figures/09_desk_node_passive_rear.png)
-
 The selected Waveshare ESP32-S3-Touch-LCD-4.3B standard board is 112.4 × 75.1. Passive cooling is reasonable for this class of board but must pass a two-hour worst-case thermal soak at full brightness, continuous Wi-Fi activity and IR transmission. Target an external rear-surface temperature below 45°C.
 
 ## 9. Materials and purchased parts
