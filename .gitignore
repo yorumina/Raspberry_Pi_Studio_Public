@@ -1,0 +1,32 @@
+# Public documentation repository: prevent accidental publication of private assets.
+/models/
+/stl/
+/references/
+/reference_images/
+/backups/
+/scripts/
+/audit/
+/logs/
+
+*.blend
+*.blend1
+*.stl
+*.glb
+*.gltf
+*.usdz
+*.usd
+*.obj
+*.fbx
+*.step
+*.stp
+*.3mf
+*.zip
+*.7z
+*.rar
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak

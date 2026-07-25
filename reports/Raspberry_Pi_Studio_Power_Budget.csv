@@ -1,0 +1,10 @@
+Rail,Branch,Nominal_Voltage,Planned_Current_A,Planned_Power_W,Protection,Notes,Validation_Status
+5V,Raspberry Pi 5 plus SSD and USB,5,5.0,25.0,Protected 5A-class branch,Planning ceiling includes high-load and USB reserve,Measure under final workload
+5V,Main-fan boost input,5,0.6,3.0,0.75-1A PTC or fuse,Includes converter loss startup and margin,Measure converter input and temperature
+12V,Noctua NF-A12x15 PWM output,12,0.13,1.56,Approximately 0.25A output protection,Motor power comes only from boost branch,Official fan maximum
+5V,Three rear fans,5,0.3,1.5,0.5A-class branch protection,Planning ceiling above rated sum,Measure all three at startup
+5V,PN532 LD2410C PWM/tach and LEDs,5,0.4,2.0,0.5A-class branch protection,Confirm actual board voltages and regulators,Measure after final electronics selection
+5V,Transient and expansion reserve,5,1.7,8.5,N/A,Reserve is not a guaranteed continuous accessory output,Planning reserve
+5V,Planned internal total,5,8.0,40.0,Branch protections above,Desk Node excluded,Engineering design value
+5V,Mean Well IRM-60-5ST rating,5,10.0,50.0,Primary fuse and compliant mains installation,Leaves 2A nominal planning margin,Manufacturer rating
+5V,Desk Node independent USB-C,5,0.45,2.25,Use 5V 2A regulated supply,Not supplied by Studio internal PSU,Waveshare nominal consumption

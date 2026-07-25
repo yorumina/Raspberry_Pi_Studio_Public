@@ -1,0 +1,43 @@
+Section,Item,Manufacturer_Model,Specification,Dimensions_mm,Qty,Status_or_Note
+Studio,Main computer,Raspberry Pi 5 8GB,85x56 PCB; external power switch via J2,85x56,1,Sponsored/owned
+Studio,System storage,64GB High Endurance microSD,A2 preferred,,1,Buy
+Studio,AC-DC PSU,Mean Well IRM-60-5ST,85-305VAC input; 5V 10A 50W,109x52x33.5,1,Buy
+Studio,Main fan,Noctua NF-A12x15 PWM,12V 4-pin PWM; 1850RPM max; 0.13A; 1.56W,120x120x15,1,Buy
+Studio,Rear fans,Noctua NF-A4x10 5V PWM,5V 4-pin PWM; 5000RPM max; 0.07A each,40x40x10,3,Buy
+Studio,Boost converter,Pololu U3V16F12 item 4945,5V input to fixed 12V output,13.1x8.1x3,1,Buy
+Studio,Fan branch PTC,Bourns MF-R075 or equivalent,0.75A hold resettable PTC,,1,Buy
+Studio,Fan branch input capacitor,Low-ESR electrolytic,47uF 25V 105C,Approx 8 dia x 12,1,Buy
+Studio,PWM/tach interface,Custom perfboard or small PCB,Two 25kHz buffered PWM channels; four 3.3V tach inputs with 10k pull-ups,20x12x5 envelope,1,Build and oscilloscope-test
+Studio,PWM buffer,74HCT14 or equivalent CMOS Schmitt inverter,5V supply; use two inverter stages per PWM channel; 3.3V-compatible input,,1,Preferred implementation
+Studio,Optional PWM transistor,2N7002 or 2N2222,Open-drain/open-collector fallback only after waveform validation,,2,Optional
+Studio,Power switch,Omron B3F-1002,Normally-open tactile; 1.47N class,6x6 body class,1,Buy
+Studio,NFC reader,PN532 V3 breakout,Use I2C; verify purchased board before print,48x48x4 design envelope,1,Buy and measure
+Studio,Presence sensor,Hi-Link HLK-LD2410C,24GHz mmWave UART/BLE module,Measure purchased unit,1,Buy and measure
+Studio,RTC battery,Raspberry Pi compatible ML2020,Rechargeable cell with correct J5 connector,,1,Buy
+Studio,Pi heatsink,Pi 5 large passive aluminum heatsink,No active cooler; verify keep-out,Measure selected unit,1,Select and measure
+Studio,Ethernet extension,Short Cat6 male-to-female panel extension,Shielded; 150-250mm preferred,,1,Buy
+Studio,USB service extension,USB 3 Type-A male-to-female panel extension,150-250mm preferred,,1,Buy
+Studio,5V distribution,Insulated 10A-rated distribution block,Touch-safe cover required,,1,Buy
+Studio,AC inlet/fuse,IEC C14 fused inlet or equivalent,250VAC 10A rated; fuse per local code,,1,Qualified installation
+Studio,AC wire,UL1015 or equivalent,18AWG 300/600V appropriately rated,As needed,1 set,Buy
+Studio,5V power wire,Stranded copper,16-18AWG,As needed,1 set,Buy
+Studio,Signal wire,Stranded copper,24-26AWG,As needed,1 set,Buy
+Studio,Connectors,Locking JST/Molex class,Keyed connectors for fan/NFC/sensors,,1 set,Buy
+Studio,Heat-shrink,Flame-retardant tubing,Assorted sizes,,1 set,Buy
+Studio,Pi fasteners,M2.5 brass standoffs and screws,6-8mm standoff height starting point,,1 set,Buy
+Studio,Structural fasteners,M3 screws washers and heat-set inserts,Assorted 6-16mm lengths,,1 set,Buy
+Studio,Main fan isolation,Noctua NA-AV3 or M4 silicone grommets,105x105 mounting pitch,,4,Buy
+Studio,PN532 carrier adhesive,Thin acrylic transfer adhesive,0.05-0.10mm design allowance,48x48,1,Buy
+Studio,Internal structure filament,ASA preferred or PETG,Four walls; 35-45% gyroid,,As required,Print
+Studio,Light pipe,Clear resin,Front status LED guide,,1,Print
+Studio,Gasket/feet,TPU 95A,Service-cover gasket and isolation pads,,As required,Print
+Desk Node,Display controller,Waveshare ESP32-S3-Touch-LCD-4.3B,4.3in 800x480 capacitive touch; 5V approx 450mA,112.4x75.1 board,1,Buy
+Desk Node,Encoder,EC11 push encoder,Low-profile knob,,1,Buy
+Desk Node,Buttons,Normally-open momentary switches,Three front functions,,3,Buy
+Desk Node,IR receiver,TSOP38238 or equivalent,38kHz,,1,Buy
+Desk Node,IR emitters,940nm IR LED,Drive through transistor/MOSFET,,2,Buy
+Desk Node,IR driver,Logic transistor or MOSFET,Do not drive high-current LEDs from GPIO,,1,Buy
+Desk Node,Thermal pad,Silicone thermal interface pad,1.0mm thickness,45x35x1,1,Buy
+Desk Node,Heat spreader,Aluminum sheet,0.8mm nominal,116x78x0.8,1,Fabricate
+Desk Node,USB-C supply,Regulated USB-C 5V supply,2A class, ,1,Buy
+Desk Node,Front cover,Bonded black glass or hard-coated acrylic,Flat face,136x96x0.9 design,1,Fabricate

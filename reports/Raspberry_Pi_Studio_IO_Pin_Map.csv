@@ -1,0 +1,16 @@
+Subsystem,Function,BCM_GPIO,Physical_Pin,Direction,Electrical_Interface,Protection_or_Condition,Validation_Status
+NFC,PN532 SDA,GPIO2,3,Bidirectional,I2C1 3.3V logic,Confirm BR-008 pull-ups and board voltage,Hardware validation required
+NFC,PN532 SCL,GPIO3,5,Output,I2C1 3.3V logic,Confirm BR-008 pull-ups and board voltage,Hardware validation required
+NFC,PN532 IRQ optional,GPIO17,11,Input,3.3V GPIO,Omit when polling; never apply 5V,Optional
+NFC,PN532 Reset optional,GPIO27,13,Output,3.3V GPIO,Confirm purchased BR-008 pinout,Optional
+Main Fan,Main PWM,GPIO18,12,Output,25kHz via two-stage 74HCT14,10k pull-up to 3.3V for full-speed fail-safe,Engineering design value
+Main Fan,Main tach,GPIO23,16,Input,Open-collector tach,10k pull-up to 3.3V; two pulses/revolution,Engineering design value
+Rear Fans,Shared rear PWM,GPIO19,35,Output,25kHz via two-stage 74HCT14,One PWM may drive three control inputs after waveform test,Engineering design value
+Rear Fans,Rear fan 1 tach,GPIO24,18,Input,Open-collector tach,10k pull-up to 3.3V,Engineering design value
+Rear Fans,Rear fan 2 tach,GPIO25,22,Input,Open-collector tach,10k pull-up to 3.3V,Engineering design value
+Rear Fans,Rear fan 3 tach,GPIO16,36,Input,Open-collector tach,10k pull-up to 3.3V,Engineering design value
+Presence,LD2410C TX to Pi RX,GPIO15,10,Input,UART 3.3V logic,Disable Linux serial console,Hardware validation required
+Presence,Pi TX to LD2410C RX,GPIO14,8,Output,UART 3.3V logic,Confirm module header orientation,Hardware validation required
+Power,External power button,J2,N/A,Contact,Normally-open dry contact,No external voltage; twisted pair and locking connector,Official Pi function
+RTC,RTC battery,J5,N/A,Power,Pi 5 RTC battery interface,Use compatible rechargeable cell and correct keyed plug,Official Pi function
+Common,Ground,GND,6/9/14/20/25/30/34/39,Reference,Common signal ground,Choose pins to minimize harness crossings,Hardware validation required
